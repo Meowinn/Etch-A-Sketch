@@ -1,0 +1,74 @@
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: VT323, monospace;
+    background-color:#8F0070;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 50px 10px 10px 10px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tileContainer {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    background-color: #bb7eb2;
+}
+
+#hoverEffect {
+    background-color: rgb(11, 155, 238);
+}
+
+.box {
+    border: 2px solid rgb(94, 255, 0);
+    
+  }
+
+  .slider {
+    margin-top: 20px;
+    width: 30%;
+  }
+
+  .totalSize {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(0, 217, 255);
+  }
+
+  .btn {
+    font-size: 35px;
+    margin: 15px;
+    font-family: VT323, monospace;
+    color:rgb(116, 204, 255);
+    background-color: gray;
+    width: 100px;
+  }
